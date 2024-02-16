@@ -1,6 +1,7 @@
 # Marmeto
 Coding Assessment L-2 Code Submission<br>
-URL: https://65cecfa6b1252268d744c0f4--shimmering-fox-a126a3.netlify.app/<br>
+URL: https://ananya-jha-code.github.io/Marmeto/<br>
+https://65cecfa6b1252268d744c0f4--shimmering-fox-a126a3.netlify.app/<br>
 Welcome to the Marmeto Embrace Sideboard online shopping website! This project includes the HTML, CSS, and JavaScript files necessary to display and interact with the webpage.
 
 Here's a quick overview of the files included in this project:
