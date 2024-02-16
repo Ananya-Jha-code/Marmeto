@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="product-container">
+        <div class="product-images">
+            <img id="main-image" src="" alt="Main Product Image">
+            <div class="thumbnails">
+                <!-- Thumbnails will be populated here -->
+            </div>
+        </div>
+        <div class="product-details">
+            <h1 id="vendor"></h1>
+            <h2 id="title">Embrace Sideboard</h2>
+            <hr class="custom-line"> <!-- Line after title -->
+            <div class="price-container">
+                <span class="org-price" >
+                    <span id="price">$12999</span>
+                </span> 
+                <p id="percentage-off" class="discount"></p>
+            </div>
+            <p id="compare-at-price"><s>$19999.00</s></p>
+            <hr class="custom-line"> <!-- Line after compare at price -->
+            
+            <div class="selectors">
+                <p class="text">Choose a color</p>
+                <div class="color-selector">
+                    <!-- Color options will be populated here -->
+                </div>
+                <hr class="custom-line"> <!-- Line after color selector -->
+                <p class="text">Choose a size</p>
+                <div class="size-selector">
+                    <!-- Size options will be populated here -->
+                </div>
+                <div class="quantity-selector">
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                </div>
+
+                <button class="add-to-cart">Add to Cart</button>
+
+                </div>
+                
+            <hr class="custom-line"> <!-- Line after add to cart button -->
+            <p id="add-to-cart-message" class="hidden">Embrace Sideboard with color {} and size {} added to Cart</p>
+            <div class="desc" id="description"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
