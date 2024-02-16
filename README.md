@@ -18,7 +18,7 @@ Here are some additional details about the project:
 
 *   The webpage displays an image of the Embrace Sideboard, along with its original and sale prices and the discount is dynamically calculated.
     
-*   Users can select a color and size for the Embrace Sideboard using the dropdown menus provided.
+*   Users can select a color and size for the Embrace Sideboard using the menus provided and add the item to cart.
     
 
 I hope you enjoy using this webpage! Let me know if you have any questions or feedback.
